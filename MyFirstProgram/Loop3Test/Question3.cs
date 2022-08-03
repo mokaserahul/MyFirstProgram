@@ -6,41 +6,47 @@ namespace MyFirstProgram.Loop3Test
 {
     class Question3
     {
+            public static bool isKaprekar(int n)
+        {
+            int sq = n * n;
+            int temp = n,count=0;
+            while(n>0)
+            {
+                count++;
+                n = n / 10;
+            }
+            n = temp;
+            Console.WriteLine("count:"+count);
+            int power = 1;
+            for(int i=1;i<=count;i++)
+            {
+                power = power * 10;
+            }
+            int q = sq / power;
+            int r = sq % power;
+            int sum = q + r;
+            Console.WriteLine("Sum:"+sum);
+            if(sum==n)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
         static void Main(string[] args)
         {
             Console.WriteLine("Enter a number:");
             int n = int.Parse(Console.ReadLine());
-            int square = n * n;
-            int temp = square;
-            int sum = 0, count = 0, p1, p2,v1=0,v2=0;
-            while(square>0)
+            if(isKaprekar(n))
             {
-                count++;
-                square = square / 10;
+                Console.WriteLine("Kaprekar Number");
             }
-            square = temp;
-            if(count%2==0)
-            {
-                p1 = count / 2;
-            }
+
             else
             {
-                p1 = (count / 2) + 1;
-            }
-            p2 = count - p1;
-            for(int i=1;i<=p1;i++)
-            {
-                while(square>0)
-                {
-                    int r = square % 10;
-                    v1 = v1 + r;
-                    square = square / 10;
-                }
-            }
-            square = temp;
-            for(int i=1;i<=p2;i++)
-            {
-
+                Console.WriteLine("Not Kaprekar Number");
             }
         }
     }
