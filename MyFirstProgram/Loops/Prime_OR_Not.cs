@@ -17,7 +17,6 @@ namespace MyFirstProgram.Loops
                 {
                     a = 1;
                 }
-            
             }
             if(a==0)
             {
