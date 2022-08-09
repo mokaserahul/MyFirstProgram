@@ -21,7 +21,7 @@ namespace MyFirstProgram.OOPs.Inheritance
             Console.WriteLine("Drink:"+type+" Quantity:"+qty);
         }
     }
-    class Cold:Cofee
+    class Cold_cofee:Cofee
     {
         internal int sugar_cubes = 2;
         public void ShowSweetness()
@@ -33,7 +33,7 @@ namespace MyFirstProgram.OOPs.Inheritance
     {
         static void Main(string[] args)
         {
-            Cold c = new Cold();
+            Cold_cofee c = new Cold_cofee();
             c.ShowDrink();
             c.Showqty();
             c.ShowSweetness();
