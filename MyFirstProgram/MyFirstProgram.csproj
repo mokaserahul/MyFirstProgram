@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-	  <StartupObject>MyFirstProgram.New_Assignment.Perimeter_of_Rectangle</StartupObject>
+	  <StartupObject>MyFirstProgram.Array_2D.Max_Min_Row</StartupObject>
   </PropertyGroup>
 
 </Project>
