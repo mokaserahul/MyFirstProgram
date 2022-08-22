@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-	  <StartupObject>MyFirstProgram.Array_2D.Max_Min_Row</StartupObject>
+	  <StartupObject>MyFirstProgram.String_Code.Reverse_Sentence</StartupObject>
   </PropertyGroup>
 
 </Project>
