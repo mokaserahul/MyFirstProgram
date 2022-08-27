@@ -14,7 +14,6 @@ namespace MyFirstProgram.String
                 j = j+str[i];
 
             }
-
             return j;
         }
         static void Main(string[] args)

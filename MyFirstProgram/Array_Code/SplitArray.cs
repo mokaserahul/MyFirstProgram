@@ -30,15 +30,15 @@ namespace MyFirstProgram.Array_Code
 
             }
             Console.WriteLine("\n.................................");
-            foreach (int x in even)
+            for(int i= 0;i<j;i++)
             {
-                Console.Write(x + " ");
+                Console.Write(even[i]+ " ");
             }
             Console.WriteLine("\n.................................");
 
-            foreach (int x in arr)
+            for(int i=0;i<k;i++)
             {
-                Console.Write(odd + " ");
+                Console.Write(odd[i] + " ");
             }
         }
 
