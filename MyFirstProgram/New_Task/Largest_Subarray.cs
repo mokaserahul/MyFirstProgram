@@ -24,7 +24,7 @@ namespace MyFirstProgram.New_Task
                     }
                     if(zero==one)
                     {
-                        if(max<(j-1+1))
+                        if(max<(j-i+1))
                         {
                             max = j - i + 1;
                         }
