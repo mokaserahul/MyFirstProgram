@@ -18,7 +18,6 @@ namespace MyFirstProgram.Array_2D
                     }
                     else
                     {
-                        
                         a[i, j] = 0;
                     }
                 }
